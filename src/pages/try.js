@@ -10,7 +10,9 @@ const Try = () => {
     <p>An impressively comprehensive <a href="https://github.com/terkelg/awesome-creative-coding">github repository</a> full of tutorials, resources, and documentation</p>`,
     `
     <h1>Making your own creative coding piece</h1>
-    <h2>Let's see what a creative coding project can look like via <a href="/">the p5.js web editor</a>.</h2>
+    <h2>Let's see what a creative coding project can look like via the p5.js web editor.</h2>
+    <p>We'll start with <a href="https://editor.p5js.org/maxturer/sketches/fD0dcDL1gZ">this sketch</a>,</p>
+    <p>then end up somewhere like <a href="https://editor.p5js.org/maxturer/sketches/SQzbN4mjd">this sketch</a> (spoilers!).</p>
     `,
     `
     <h1>Featured Artwork</h1>

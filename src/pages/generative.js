@@ -7,7 +7,7 @@ const Generative = () => {
   const genSlides = [
     `<h1>You don't have to do math during this presentation, but it is nice to look at.</h1>
     <h2>Featured: <i>240117a</i> by takawo, 2024</h2>
-    <p><a href="https://openprocessing.org/sketch/2148100/embed/">via OpenProcessing</a></p>
+    <p><a href="https://openprocessing.org/sketch/2148100">via OpenProcessing</a></p>
      `,
      `
     <h1>Principles of composition</h1>
