@@ -1,0 +1,105 @@
+.pagecontent {
+    .swiper {
+        height: 100%;
+
+        .swiper-button-next::after,
+        .swiper-rtl .swiper-button-prev::after,
+        .swiper-button-prev::after,
+        .swiper-rtl .swiper-button-next::after  {
+            color: $gw-dark-blue;
+        }
+
+        .swiper-slide {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .single-slide {
+                margin: 0 3.5rem;
+                text-align: center;
+
+                h1 {
+                    margin: 0 0 1rem 0;
+                    background-image: linear-gradient(to left, $gw-dark-blue, $gw-light-blue);
+                    color: transparent;
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                }
+
+                h2 {
+                    margin: 0 0 0.2rem 0;
+                    padding: 0.4rem 0.6rem;
+                    // clip-path: polygon(0% 20%, 2% 20%, 2% 0%, 98% 0%, 98% 20%, 100% 20%, 100% 82%, 98% 82%, 98% 100%, 2% 100%, 2% 82%, 0% 82%);
+                    color: $gw-dark-grey;
+                    font-size: 1.5rem;
+                }
+
+                h3 {
+                    margin: 0 0 0.2rem 0;
+                    color: $gw-dark-blue;
+                    font-weight: 200;
+                    font-size: 1.4rem;
+
+                    &::after {
+                        margin-top: 0.1rem;
+                        content: ' ';
+                        display: block;
+                        border: 1px solid $gw-buff;
+                    }
+                }
+
+                p {
+                    margin-top: 0;
+                    margin-bottom: 0.8rem;
+                    font-size: 1.2rem;
+                    color: $gw-dark-grey;
+
+                    &#quotation {
+                        font-size: 1.4rem;
+                    }
+
+                    &#ref {
+                        font-size: 1.2rem;
+                        font-style: italic;
+                    }
+                }
+
+                .columns {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+
+                    div {
+                        width: 45%;
+                    }
+
+                    .scroll {
+                        height: 15rem;
+                        overflow-y: scroll;
+                        width: 80%;
+                        resize: none;
+                        padding: 0.5rem;
+                        font-size: 0.7rem;
+                        border: 10px ridge $gw-buff;
+                        background-color: $gw-hover-buff;
+                        color: $gw-dark-blue;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1100px) {
+    .pagecontent {
+        .swiper .swiper-slide .single-slide {
+            .columns {
+                flex-direction: column;
+
+                div {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}

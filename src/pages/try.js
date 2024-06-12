@@ -1,0 +1,41 @@
+import * as React from "react";
+import Layout from "../components/layout";
+import Media from "../components/media";
+import Slides from "../components/slides";
+
+const Try = () => {
+  const trySlides = [
+    `<h1>Every resource on the internet, probably</h1>
+    <h2>Terkelg's Awesome Creative Coding</h2>
+    <p>An impressively comprehensive <a href="https://github.com/terkelg/awesome-creative-coding">github repository</a> full of tutorials, resources, and documentation</p>`,
+    `
+    <h1>Making your own creative coding piece</h1>
+    <h2>Let's see what a creative coding project can look like via <a href="/">the p5.js web editor</a>.</h2>
+    `,
+    `
+    <h1>Featured Artwork</h1>
+    <h2><i>Sleep Well Beast</i> by Casey Reas, 2017</h2>
+    <p><a href="https://youtu.be/kwraJAssyuE">Music video for The National</a></p>
+    `
+];
+
+  return (
+    <Layout 
+    pageTitle="Try it!"
+    titleId="tryit"
+    subtitle="Getting started with creative coding">
+      <Media pageMedia="https://reas.com/sleep_well_beast/reas_sleep_well_beast_2.jpg" mediaId="try" embedded={false} />
+      <Slides slideContent={trySlides} slideSize="home" />
+    </Layout>
+  )
+};
+
+export const Head = () => (
+  <>
+    <title>Digital Art: Try it</title>
+    <meta name="description" content="description" />
+    <body className="tryit" />
+  </>
+);
+
+export default Try;
