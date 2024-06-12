@@ -55,6 +55,7 @@ const Generative = () => {
 export const Head = () => (
     <>
       <title>Digital Art: Generative Art</title>
+      <meta name="viewport" content="width=device-width" />
       <body className="generative" />
     </>
   );

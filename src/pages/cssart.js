@@ -385,6 +385,7 @@ const Css = () => {
 export const Head = () => (
     <>
       <title>Digital Art: CSS Art</title>
+      <meta name="viewport" content="width=device-width" />
       <body className="css" />
     </>
   );

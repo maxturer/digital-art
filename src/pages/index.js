@@ -32,6 +32,7 @@ const IndexPage = () => {
 export const Head = () => (
   <>
     <title>Digital Art: LAI Instutute</title>
+    <meta name="viewport" content="width=device-width" />
     <body className="homepage" />
   </>
 );

@@ -63,6 +63,7 @@ const IntroPage = () => {
 export const Head = () => (
     <>
       <title>Digital Art: Introduction</title>
+      <meta name="viewport" content="width=device-width" />
       <body className="intro" />
     </>
   );

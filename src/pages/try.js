@@ -34,6 +34,7 @@ const Try = () => {
 export const Head = () => (
   <>
     <title>Digital Art: Try it</title>
+    <meta name="viewport" content="width=device-width" />
     <body className="tryit" />
   </>
 );
