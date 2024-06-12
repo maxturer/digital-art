@@ -6,5 +6,6 @@ module.exports = {
     title: `Digital Art`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: ["gatsby-plugin-sass"],
+  pathPrefix: "/digital-art",
 };
