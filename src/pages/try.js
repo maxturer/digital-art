@@ -34,7 +34,6 @@ const Try = () => {
 export const Head = () => (
   <>
     <title>Digital Art: Try it</title>
-    <meta name="description" content="description" />
     <body className="tryit" />
   </>
 );

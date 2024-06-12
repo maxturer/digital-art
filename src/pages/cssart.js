@@ -385,7 +385,6 @@ const Css = () => {
 export const Head = () => (
     <>
       <title>Digital Art: CSS Art</title>
-      <meta name="description" content="description" />
       <body className="css" />
     </>
   );

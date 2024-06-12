@@ -11,7 +11,7 @@ const Generative = () => {
      `,
      `
     <h1>Principles of composition</h1>
-    <p id="ref">"An artist arranges the different elements of an artwork so as to bring them into a relationship satisfactory to them and, it is hoped, the viewer." (<a href="https://www.tate.org.uk/art/art-terms/c/composition">Tate Modern</a>)</p>
+    <p id="ref">"An artist arranges the different elements of an artwork so as to bring them into a relationship satisfactory to them and, it is hoped, the viewer." (<a href="https://www.tate.org.uk/art/art-terms/c/composition" target="_blank" rel="noopener noreferrer">Tate Modern</a>)</p>
     <ul>
       <li>balance</li>
       <li>movement</li>
@@ -55,7 +55,6 @@ const Generative = () => {
 export const Head = () => (
     <>
       <title>Digital Art: Generative Art</title>
-      <meta name="description" content="description" />
       <body className="generative" />
     </>
   );

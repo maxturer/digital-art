@@ -7,7 +7,7 @@ import joan_tr from "../images/joan-truckenbrod.jpeg";
 const IntroPage = () => {
   const introSlides = [
     `<h1>What is creative coding?</h1>
-    <p id="quotation"><i>"a type of computer programming in which the goal is to create something expressive instead of something functional"</i> (<a href="https://en.wikipedia.org/wiki/Creative_coding">Wikipedia</a>)</p>`,
+    <p id="quotation"><i>"a type of computer programming in which the goal is to create something expressive instead of something functional"</i> (<a href="https://en.wikipedia.org/wiki/Creative_coding" target="_blank" rel="noopener noreferrer">Wikipedia</a>, but it works)</p>`,
     `
     <h1>Does that affect development?</h1>
     <div class="columns">
@@ -63,7 +63,6 @@ const IntroPage = () => {
 export const Head = () => (
     <>
       <title>Digital Art: Introduction</title>
-      <meta name="description" content="description" />
       <body className="intro" />
     </>
   );

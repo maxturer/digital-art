@@ -31,8 +31,7 @@ const IndexPage = () => {
 
 export const Head = () => (
   <>
-    <title>Digital Art</title>
-    <meta name="description" content="description" />
+    <title>Digital Art: LAI Instutute</title>
     <body className="homepage" />
   </>
 );
