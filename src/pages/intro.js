@@ -40,13 +40,13 @@ const IntroPage = () => {
       <div>
         <h2>Generative Art</h2>
         <p>Uses programming languages and mathematical expressions to create visuals and/or animations</p>
-        <p>Popular libraries: <br/> <a href="https://processing.org/">Processing</a> (mainly Java),<br/> <a href="https://generativepy.com/book/what-is/">generativepy</a> (Python), <br/> <a href="https://p5js.org/">p5js</a> (JavaScript)</p>
+        <p>Popular libraries: <br/> <a href="https://processing.org/" target="_blank" rel="noopener noreferrer">Processing</a> (mainly Java),<br/> <a href="https://generativepy.com/book/what-is/" target="_blank" rel="noopener noreferrer">generativepy</a> (Python), <br/> <a href="https://p5js.org/" target="_blank" rel="noopener noreferrer">p5js</a> (JavaScript)</p>
       </div>
     </div>
     `,
     `<h1>Featured Artwork</h1>
     <h2><i>Electronic Patchwork</i> by Joan Truckenbrod, 1978</h2>
-    <p><a href="https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;(grid|popup)=artwork/joan-truckenbrod-algorithmic-art-57.jpg;">joantruckenbrod.com/gallery</a></p>`
+    <p><a href="https://joantruckenbrod.com/gallery/#(grid|filter)=.coded;(grid|popup)=artwork/joan-truckenbrod-algorithmic-art-57.jpg;" target="_blank" rel="noopener noreferrer">joantruckenbrod.com/gallery</a></p>`
   ];
 
   return (

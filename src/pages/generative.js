@@ -7,7 +7,7 @@ const Generative = () => {
   const genSlides = [
     `<h1>You don't have to do math during this presentation, but it is nice to look at.</h1>
     <h2>Featured: <i>240117a</i> by takawo, 2024</h2>
-    <p><a href="https://openprocessing.org/sketch/2148100">via OpenProcessing</a></p>
+    <p><a href="https://openprocessing.org/sketch/2148100" target="_blank" rel="noopener noreferrer">via OpenProcessing</a></p>
      `,
      `
     <h1>Principles of composition</h1>
@@ -33,9 +33,9 @@ const Generative = () => {
       </div>
       <div>
         <h2>Movement</h2>
-        <p><a href="https://easings.net/">Easing functions</a> programmatically draw the viewer's eye around the canvas.</p>
+        <p><a href="https://easings.net/" target="_blank" rel="noopener noreferrer">Easing functions</a> programmatically draw the viewer's eye around the canvas.</p>
         <h2>Movement (literal)</h2>
-        <p>Utilities like p5js's <a href="https://p5js.org/reference/#/p5/draw">draw()</a> and <a href="https://p5js.org/reference/#/p5/frameRate">frameRate()</a> functions allow artists to control the movement of their composition in real-time.</p>
+        <p>Utilities like p5js's <a href="https://p5js.org/reference/#/p5/draw" target="_blank" rel="noopener noreferrer">draw()</a> and <a href="https://p5js.org/reference/#/p5/frameRate" target="_blank" rel="noopener noreferrer">frameRate()</a> functions allow artists to control the movement of their composition in real-time.</p>
       </div>
     </div>
     `

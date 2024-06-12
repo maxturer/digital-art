@@ -10,12 +10,12 @@ const Css = () => {
     `
     <h1>Hundreds and hundreds of div elements</h1>
     <h2>Featured: <i>Francine</i> by Diana Smith, 2020</h2>
-    <p><a href="https://diana-adrianne.com/purecss-francine/">diana-adrianne.com/purecss-francine</a></p>
+    <p><a href="https://diana-adrianne.com/purecss-francine/" target="_blank" rel="noopener noreferrer">diana-adrianne.com/purecss-francine</a></p>
     `,
     `
     <h1>How do you even approach this?</h1>
     <h2>Art foundations!</h2>
-    <p id="ref">"When you’re using oil paint, a composition is usually built up using different layers of colour. For example, if you’re painting a portrait, you may start with an area of background colour. On top of this you may sketch out the proportions of the portrait with another colour, and on top of that you may add further colours for the detail." (<a href="https://www.winsornewton.com/na/education/guides/understanding-the-3-oil-painting-rules/">Windsor & Newton</a>)</p>
+    <p id="ref">"When you’re using oil paint, a composition is usually built up using different layers of colour. For example, if you’re painting a portrait, you may start with an area of background colour. On top of this you may sketch out the proportions of the portrait with another colour, and on top of that you may add further colours for the detail." (<a href="https://www.winsornewton.com/na/education/guides/understanding-the-3-oil-painting-rules/" target="_blank" rel="noopener noreferrer">Windsor & Newton</a>)</p>
     `,
     `
     <h1>Layering In Oil Painting</h1>
