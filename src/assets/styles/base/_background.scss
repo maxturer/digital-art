@@ -1,15 +1,16 @@
 /* home page */
 .homepage {
-  $size: 70px;
-  /* control the size*/
+  $size: 124px;
 
-  $loop: #0000 46%, $gw-buff 47% 53%, #0000 54%;
+  $gradient:radial-gradient(#0000 60%,$gw-buff 61% 63%,#0000 64% 77%,$gw-buff 78% 80%,#0000 81%);
+  $curve:#0000 75%,$gw-dark-blue 0;
   background:
-    radial-gradient(100% 100% at 100% 100%, $loop) $size $size,
-    radial-gradient(100% 100% at 0 0, $loop) $size $size,
-    radial-gradient(100% 100%, transparent 22%, $gw-buff 23% 29%, #0000 30% 34%, $gw-buff 35% 41%, #0000 42%),
-    $gw-dark-blue;
-  background-size: calc($size*2) calc($size*2);
+    conic-gradient(at 12% 20%, $curve) calc($size* .44) calc(.9*$size),
+    conic-gradient(at 12% 20%, $curve) calc($size*-.06) calc(.4*$size),
+    conic-gradient(at 20% 12%, $curve) calc(.9*$size) calc($size* .44),
+    conic-gradient(at 20% 12%, $curve) calc(.4*$size) calc($size*-.06),
+    $gradient,$gradient calc($size/2) calc($size/2) $gw-dark-blue;
+  background-size: $size $size;
 }
 
 /* css art */
