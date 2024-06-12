@@ -7,7 +7,7 @@
   background:
     radial-gradient(100% 100% at 100% 100%, $loop) $size $size,
     radial-gradient(100% 100% at 0 0, $loop) $size $size,
-    radial-gradient(100% 100%, #0000 22%, $gw-buff 23% 29%, #0000 30% 34%, $gw-buff 35% 41%, #0000 42%),
+    radial-gradient(100% 100%, transparent 22%, $gw-buff 23% 29%, #0000 30% 34%, $gw-buff 35% 41%, #0000 42%),
     $gw-dark-blue;
   background-size: calc($size*2) calc($size*2);
 }

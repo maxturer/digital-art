@@ -2,7 +2,7 @@
 /* home page */
 .homepage {
   /* control the size*/
-  background: radial-gradient(100% 100% at 100% 100%, rgba(0, 0, 0, 0) 46%, #aa9868 47% 53%, rgba(0, 0, 0, 0) 54%) 70px 70px, radial-gradient(100% 100% at 0 0, rgba(0, 0, 0, 0) 46%, #aa9868 47% 53%, rgba(0, 0, 0, 0) 54%) 70px 70px, radial-gradient(100% 100%, rgba(0, 0, 0, 0) 22%, #aa9868 23% 29%, rgba(0, 0, 0, 0) 30% 34%, #aa9868 35% 41%, rgba(0, 0, 0, 0) 42%), #033c5a;
+  background: radial-gradient(100% 100% at 100% 100%, rgba(0, 0, 0, 0) 46%, #aa9868 47% 53%, rgba(0, 0, 0, 0) 54%) 70px 70px, radial-gradient(100% 100% at 0 0, rgba(0, 0, 0, 0) 46%, #aa9868 47% 53%, rgba(0, 0, 0, 0) 54%) 70px 70px, radial-gradient(100% 100%, transparent 22%, #aa9868 23% 29%, rgba(0, 0, 0, 0) 30% 34%, #aa9868 35% 41%, rgba(0, 0, 0, 0) 42%), #033c5a;
   background-size: 140px 140px;
 }
 
