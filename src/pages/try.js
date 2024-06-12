@@ -11,7 +11,7 @@ const Try = () => {
     `
     <h1>Making your own creative coding piece</h1>
     <h2>Let's see what a creative coding project can look like via the p5.js web editor.</h2>
-    <p>We'll start with <a href="https://editor.p5js.org/maxturer/sketches/fD0dcDL1gZ" target="_blank" rel="noopener noreferrer">this sketch</a>, <br/>then end up somewhere like <a href="https://editor.p5js.org/maxturer/sketches/SQzbN4mjd">this sketch</a> (spoilers!).</p>
+    <p>We'll start with <a href="https://editor.p5js.org/maxturer/sketches/fD0dcDL1gZ" target="_blank" rel="noopener noreferrer">this sketch</a>, <br/>then end up somewhere like <a href="https://editor.p5js.org/maxturer/sketches/SQzbN4mjd" target="_blank" rel="noopener noreferrer">this sketch</a> (spoilers!).</p>
     `,
     `
     <h1>Featured Artwork</h1>
